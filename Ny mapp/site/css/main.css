@@ -118,7 +118,7 @@ footer{
 
 
 
-/* 
+
 .menu {
 
     display: flex;
@@ -148,8 +148,6 @@ footer{
 .menu i {
     margin: 20px 20px 0 0;    
 }
-
-
-
-.menu-butterfly {
-/* länka till skroll på sidan } */
+.inactive{
+    display:none;
+}
