@@ -11,11 +11,20 @@ header{
     top:0px;
    
 }
+
+.material-icons {
+    color: whitesmoke;
+}
 h1{ 
     padding: 0;
     margin: 0;
-
 }
+h2{
+    width: 95%;
+    margin-left: 5%;
+}
+
+
 .header_box{
     height: 100px;
     width: 100%;
@@ -41,9 +50,34 @@ h1{
 }
 
 .wrapper{
-    height: 1466px;
-    width: 100%;
+    width: auto;
+        
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
 }
+.container{
+ background-color:rgba(182, 180, 255, 0.56);
+ border-radius: 20px;
+ width: 289px;
+ height: 405px;
+ 
+ display: flex;
+align-items: center;
+flex-direction: column;
+
+}
+.shop_button_box{
+   background-color:  #798ED7;
+   border-radius: 20px;
+   height: 55px;
+   width: 196px;
+   margin: 100px,0,0,100px;
+}
+
+
+
 .muchroom {
     display: flex;
     justify-content: space-evenly;
@@ -73,20 +107,18 @@ h1{
    
 }
 
+
 footer{
     background-color: #B6B4FF;
     width:100%;
     height:142px;
 }
 
-.material-icons {
-    color: whitesmoke;
-}
-h2{
-    width: 100%;
-    margin-left: 5%;
-}
 
+
+
+
+/* 
 .menu {
 
     display: flex;
@@ -120,5 +152,4 @@ h2{
 
 
 .menu-butterfly {
-/* länka till skroll på sidan */
-}
+/* länka till skroll på sidan } */
